@@ -8,3 +8,5 @@ ipRange: "8088-8100"
 ## Output
 
 ![Output](.images/output.png)
+
+[CloudFormation template file][./cdk.out/htquanqTestStack.template.json]

@@ -1,0 +1,439 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree",
+        "constructInfo": {
+          "fqn": "constructs.Construct",
+          "version": "10.2.70"
+        }
+      },
+      "htquanqTestStack": {
+        "id": "htquanqTestStack",
+        "path": "htquanqTestStack",
+        "children": {
+          "vpc": {
+            "id": "vpc",
+            "path": "htquanqTestStack/vpc",
+            "children": {
+              "PublicSubnet1": {
+                "id": "PublicSubnet1",
+                "path": "htquanqTestStack/vpc/PublicSubnet1",
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.Resource",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.Resource",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8088": {
+            "id": "targetGroup8088",
+            "path": "htquanqTestStack/targetGroup8088",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8088/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8088",
+                    "port": 8088,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8089": {
+            "id": "targetGroup8089",
+            "path": "htquanqTestStack/targetGroup8089",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8089/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8089",
+                    "port": 8089,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8090": {
+            "id": "targetGroup8090",
+            "path": "htquanqTestStack/targetGroup8090",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8090/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8090",
+                    "port": 8090,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8091": {
+            "id": "targetGroup8091",
+            "path": "htquanqTestStack/targetGroup8091",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8091/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8091",
+                    "port": 8091,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8092": {
+            "id": "targetGroup8092",
+            "path": "htquanqTestStack/targetGroup8092",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8092/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8092",
+                    "port": 8092,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8093": {
+            "id": "targetGroup8093",
+            "path": "htquanqTestStack/targetGroup8093",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8093/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8093",
+                    "port": 8093,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8094": {
+            "id": "targetGroup8094",
+            "path": "htquanqTestStack/targetGroup8094",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8094/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8094",
+                    "port": 8094,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8095": {
+            "id": "targetGroup8095",
+            "path": "htquanqTestStack/targetGroup8095",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8095/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8095",
+                    "port": 8095,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8096": {
+            "id": "targetGroup8096",
+            "path": "htquanqTestStack/targetGroup8096",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8096/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8096",
+                    "port": 8096,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8097": {
+            "id": "targetGroup8097",
+            "path": "htquanqTestStack/targetGroup8097",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8097/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8097",
+                    "port": 8097,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8098": {
+            "id": "targetGroup8098",
+            "path": "htquanqTestStack/targetGroup8098",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8098/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8098",
+                    "port": 8098,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8099": {
+            "id": "targetGroup8099",
+            "path": "htquanqTestStack/targetGroup8099",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8099/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8099",
+                    "port": 8099,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "targetGroup8100": {
+            "id": "targetGroup8100",
+            "path": "htquanqTestStack/targetGroup8100",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "htquanqTestStack/targetGroup8100/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "targetGroup8100",
+                    "port": 8100,
+                    "protocol": "TCP",
+                    "targetType": "ip",
+                    "vpcId": "vpc-0ece9a0b3eda519e9"
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnTargetGroup",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.NetworkTargetGroup",
+              "version": "2.29.1"
+            }
+          },
+          "publicsubnets": {
+            "id": "publicsubnets",
+            "path": "htquanqTestStack/publicsubnets",
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.CfnOutput",
+              "version": "2.29.1"
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "htquanqTestStack/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "htquanqTestStack/CDKMetadata/Default",
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.CfnResource",
+                  "version": "2.29.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "constructs.Construct",
+              "version": "10.2.70"
+            }
+          }
+        },
+        "constructInfo": {
+          "fqn": "aws-cdk-lib.Stack",
+          "version": "2.29.1"
+        }
+      }
+    },
+    "constructInfo": {
+      "fqn": "aws-cdk-lib.App",
+      "version": "2.29.1"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+ "Resources": {
+  "targetGroup80889CE08C49": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8088",
+    "Port": 8088,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8088/Resource"
+   }
+  },
+  "targetGroup808920448759": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8089",
+    "Port": 8089,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8089/Resource"
+   }
+  },
+  "targetGroup8090BF71AEC0": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8090",
+    "Port": 8090,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8090/Resource"
+   }
+  },
+  "targetGroup809184BB60F1": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8091",
+    "Port": 8091,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8091/Resource"
+   }
+  },
+  "targetGroup8092A564B394": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8092",
+    "Port": 8092,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8092/Resource"
+   }
+  },
+  "targetGroup809395D0FCE7": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8093",
+    "Port": 8093,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8093/Resource"
+   }
+  },
+  "targetGroup8094A6A55C6C": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8094",
+    "Port": 8094,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8094/Resource"
+   }
+  },
+  "targetGroup809560416982": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8095",
+    "Port": 8095,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8095/Resource"
+   }
+  },
+  "targetGroup80969DE2B365": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8096",
+    "Port": 8096,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8096/Resource"
+   }
+  },
+  "targetGroup80977E788D20": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8097",
+    "Port": 8097,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8097/Resource"
+   }
+  },
+  "targetGroup80982F42858F": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8098",
+    "Port": 8098,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8098/Resource"
+   }
+  },
+  "targetGroup80991D698155": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8099",
+    "Port": 8099,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8099/Resource"
+   }
+  },
+  "targetGroup81005C883775": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "Name": "targetGroup8100",
+    "Port": 8100,
+    "Protocol": "TCP",
+    "TargetType": "ip",
+    "VpcId": "vpc-0ece9a0b3eda519e9"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/targetGroup8100/Resource"
+   }
+  },
+  "CDKMetadata": {
+   "Type": "AWS::CDK::Metadata",
+   "Properties": {
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/02MwQrCMBBEv6X3ZLU56dmDN4XWu2yTtaSJSUk27aH0320RQRh48xgYBeoMdYVzlto46W0HS8uonWgox5I0iW17ksfMVvuIpkOPQdvQTwqWG/Eck3tg6omvKZZRXF7hT9fd74XHwnv7na4iREMw5MNUn2DLsRqytTKVwPZN0Hz5AZliG5KeAAAA"
+   },
+   "Metadata": {
+    "aws:cdk:path": "htquanqTestStack/CDKMetadata/Default"
+   }
+  }
+ },
+ "Outputs": {
+  "publicsubnets": {
+   "Value": "subnet-0f8d1560295a24b7c"
+  }
+ },
+ "Parameters": {
+  "BootstrapVersion": {
+   "Type": "AWS::SSM::Parameter::Value<String>",
+   "Default": "/cdk-bootstrap/hnb659fds/version",
+   "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]"
+  }
+ },
+ "Rules": {
+  "CheckBootstrapVersion": {
+   "Assertions": [
+    {
+     "Assert": {
+      "Fn::Not": [
+       {
+        "Fn::Contains": [
+         [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+         ],
+         {
+          "Ref": "BootstrapVersion"
+         }
+        ]
+       }
+      ]
+     },
+     "AssertDescription": "CDK bootstrap stack version 6 required. Please run 'cdk bootstrap' with a recent version of the CDK CLI."
+    }
+   ]
+  }
+ }
+}

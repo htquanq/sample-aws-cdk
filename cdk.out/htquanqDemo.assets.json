@@ -1,0 +1,20 @@
+{
+  "version": "20.0.0",
+  "files": {
+    "53ea542eb6500da7d1a3f482f567325b01448f2168240a48305960192bb34b7e": {
+      "source": {
+        "path": "htquanqDemo.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "756007437776-ap-southeast-1": {
+          "bucketName": "cdk-hnb659fds-assets-756007437776-ap-southeast-1",
+          "objectKey": "53ea542eb6500da7d1a3f482f567325b01448f2168240a48305960192bb34b7e.json",
+          "region": "ap-southeast-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::756007437776:role/cdk-hnb659fds-file-publishing-role-756007437776-ap-southeast-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

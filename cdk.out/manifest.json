@@ -1,0 +1,148 @@
+{
+  "version": "20.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "htquanqTestStack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "htquanqTestStack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "htquanqTestStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://756007437776/ap-southeast-1",
+      "properties": {
+        "templateFile": "htquanqTestStack.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::756007437776:role/cdk-hnb659fds-deploy-role-756007437776-ap-southeast-1",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::756007437776:role/cdk-hnb659fds-cfn-exec-role-756007437776-ap-southeast-1",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-756007437776-ap-southeast-1/caa848ac4edf63c17343621aad05133665c9a651399c83ab1445d73b7116fd45.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "htquanqTestStack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::756007437776:role/cdk-hnb659fds-lookup-role-756007437776-ap-southeast-1",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "htquanqTestStack.assets"
+      ],
+      "metadata": {
+        "/htquanqTestStack/targetGroup8088/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup80889CE08C49"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8089/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup808920448759"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8090/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup8090BF71AEC0"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8091/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup809184BB60F1"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8092/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup8092A564B394"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8093/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup809395D0FCE7"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8094/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup8094A6A55C6C"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8095/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup809560416982"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8096/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup80969DE2B365"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8097/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup80977E788D20"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8098/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup80982F42858F"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8099/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup80991D698155"
+          }
+        ],
+        "/htquanqTestStack/targetGroup8100/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "targetGroup81005C883775"
+          }
+        ],
+        "/htquanqTestStack/publicsubnets": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicsubnets"
+          }
+        ],
+        "/htquanqTestStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/htquanqTestStack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/htquanqTestStack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "htquanqTestStack"
+    }
+  }
+}
