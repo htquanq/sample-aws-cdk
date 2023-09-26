@@ -32,6 +32,13 @@
     "@aws-cdk/core:target-partitions": [
       "aws",
       "aws-cn"
-    ]
+    ],
+    "demo": {
+      "vpcId": "vpc-0ece9a0b3eda519e9",
+      "accountId": "756007437776",
+      "region": "ap-southeast-1",
+      "awsProfile": "default",
+      "environment": "demo"
+    }
   }
 }
